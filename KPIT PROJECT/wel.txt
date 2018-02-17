@@ -1,0 +1,6 @@
+
+
+  char s[100];
+  printf("\n\n\t\t ENTER YOUR NAME = ");
+  scanf("%s",&s);
+  printf("\n\n\t\t HELLO %s WELCOME TO CODE RACK ",s);

@@ -1,0 +1,20 @@
+  ~~~PROGRAM TO CHECK A NUMBER IS PRIME OR NOT~~~
+
+    printf("Enter a positive integer: ");
+    scanf("%d",&i);
+    f=0;
+    for(j=2; j<=i/2; ++j)
+    {
+        if(i%j==0)
+        {
+            f=1;
+            break;
+        }
+    }
+
+    if (f==0)
+        printf("%d is a prime number.",i);
+    else
+        printf("%d is not a prime number.",i);
+    
+    return 0;

@@ -1,0 +1,8 @@
+j=1;
+printf("ENTER A SMALL NUMBER =");
+scanf("%d",&i);
+while (j<= i)
+   {
+	printf("%d\t",j);
+	j++;
+   }

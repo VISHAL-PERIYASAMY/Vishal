@@ -1,0 +1,14 @@
+In the previous tutorial we learned while loop in C. 
+A do while loop is similar to while loop with one exception that it executes the statements inside the body of do-while before checking the condition. 
+On the other hand in the while loop, first the condition is checked and then the statements in while loop are executed. So you can say that if a condition is false at the first place then the do while would run once, 
+however the while loop would not run at all.
+
+C – do..while loop
+
+Syntax of do-while loop
+
+do
+{
+    //Statements 
+
+}while(condition test);

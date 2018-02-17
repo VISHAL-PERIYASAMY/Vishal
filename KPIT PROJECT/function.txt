@@ -1,0 +1,24 @@
+FUNCTIONS:
+**********
+
+Functions are the Named part of the program which can be invoked whenever necessary.
+
+Syntax:
+~~~~~~
+Return Type Function_Name (Parameters)
+{
+Statements;
+}
+
+Example:
+~~~~~~~
+int add(int a,int b)
+{
+return(a+b);
+}
+void main()
+{
+int i,j;
+scanf("%d%d",&i,&j);
+printf("%d",add(i,j));
+}

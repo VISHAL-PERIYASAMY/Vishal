@@ -1,0 +1,21 @@
+The switch statement is often faster than nested if...else (not always). Also, the syntax of switch statement is c leaner and easy to understand.
+
+Syntax of switch...case
+switch (n)
+{
+    case constant1:
+        // code to be executed if n is equal to constant1;
+        break;
+
+    case constant2:
+        // code to be executed if n is equal to constant2;
+        break;
+        .
+        .
+        .
+    default:
+        // code to be executed if n doesn't match any constant
+}
+When a case constant is found that matches the switch expression, control of the program passes to the block of code associated with that case.
+
+The break statement is used to prevent the code running into the next case.

@@ -1,0 +1,11 @@
+A loop is used for executing a block of statements repeatedly until a given condition returns false.
+
+C For loop
+
+This is one of the most frequently used loop in C programming.
+Syntax of for loop:
+
+for (initialization; condition test; increment or decrement)
+{
+       //Statements to be executed repeatedly
+}

@@ -1,0 +1,11 @@
+A loop is used for executing a block of statements repeatedly until a given condition returns false. In the previous tutorial we learned for loop. In this guide we will learn while loop in C.
+
+C – while loop
+
+Syntax of while loop:
+
+while (condition test)
+{
+      //Statements to be executed repeatedly 
+      // Increment (++) or Decrement (--) Operation
+}

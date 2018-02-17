@@ -1,0 +1,15 @@
+
+     ***PROGRAM TO PRINT A HALF PYRAMID***
+
+    printf("\n\nEnter number of rows: ");
+    scanf("%d",&f);
+    printf("\n\n");
+
+    for(i=1; i<=f; ++i)
+    {
+        for(j=1; j<=i; ++j)
+        {
+            printf("* ");
+        }
+        printf("\n");
+    }

@@ -1,0 +1,23 @@
+C goto statement
+****************
+The goto statement is known as jump statement in C language. It is used to unconditionally jump to other label.It transfers control to other parts of the program. It is rarely used today because it makes program less readable and complex.
+
+Syntax:
+~~~~~~   goto label;
+Example:
+int age;  
+   ineligible:  
+   printf("You are not eligible to vote!\n");  
+  
+   printf("Enter you age:\n");  
+   scanf("%d", &age);  
+   if(age<18)  
+        goto ineligible;  
+   else  
+        printf("You are eligible to vote!\n");  
+Output:
+
+You are not eligible to vote!
+Enter you age:
+11
+You are not eligible to vote!  

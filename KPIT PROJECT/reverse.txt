@@ -1,0 +1,14 @@
+   
+       123 PROGRAM TO REVERSE A NUMBER 321
+
+   printf("\n\n\tEnter an integer: ");
+   scanf("%d", &i);
+   f=0
+    while(i != 0)
+    {
+        j = i%10;
+        f = f*10 +j;
+        i /= 10;
+    }
+
+    printf("\n\n\tReversed Number = %d",f);

@@ -1,0 +1,11 @@
+Data Types in C:
+~~~~~~~~~~~~~~~~
+
+A data type specifies the type of data that a variable can store such as integer, floating, character etc.
+
+Keywords in C:
+~~~~~~~~~~~~~~
+
+A keyword is a reserved word. You cannot use it as a variable name, constant name etc. There are only 32 reserved words (keywords) in C language.
+Ex: int,float,break.
+

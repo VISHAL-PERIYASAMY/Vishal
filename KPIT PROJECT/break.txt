@@ -1,0 +1,25 @@
+C break statement:
+~~~~~~~~~~~~~~~~~
+
+The break statement in C language is used to break the execution of loop (while, do while and for) and switch case.
+In case of inner loops, it terminates the control of inner loop only.
+There can be two usage of C break keyword:
+
+1. With switch case
+2. With loop
+
+SYNTAX: jump-statement;  
+~~~~~~  break;
+EXAMPLE:
+~~~~~~~
+
+for(i=1;i<=10;i++)
+{      
+printf("%d \n",i);    
+if(i==5)
+{//if value of i is equal to 5, it will break the loop    
+break;    
+}    
+}
+Output:
+1 2 3 4     
