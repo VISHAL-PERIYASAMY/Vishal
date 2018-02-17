@@ -1,4 +1,4 @@
-CODE RANK:
+CODE RACK:
 
 CODE RACK is a simple C project that prompts the user to learn C- programming.  The program uses basic C concept such as functions, switch case, string manipulations and looping statements for implementing this project. The program consists of text readable functions to read all the related files for the project execution. 
                     The project includes welcome page,main menu and other options. The program calls 23 external text files for execution purpose and the program won’t run without that 23 text files. So while executing the project the 23 text files which are attached to the Github URL must be externally linked to the program running environment. 
